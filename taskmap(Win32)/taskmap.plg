@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: taskmap - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\SZF\AppData\Local\Temp\RSPDC26.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/taskmap.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\Key_Memory.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\MmjbpApp.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\MyCompress.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\Pack_Picture1.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\ready.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\StdAfx.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\ZBase64.cpp"
+"D:\workspace\imustoj-database-move\long-long-ago-code\C++\逐电大话西游侵略者v1.0\taskmap(Win32)\ZSmtp.cpp"
+]
+Creating command line "cl.exe @C:\Users\SZF\AppData\Local\Temp\RSPDC26.tmp" 
+Creating temporary file "C:\Users\SZF\AppData\Local\Temp\RSPDC37.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/taskmap.pdb" /machine:I386 /out:"Release/taskmap.exe" 
+".\Release\Key_Memory.obj"
+".\Release\MmjbpApp.obj"
+".\Release\MyCompress.obj"
+".\Release\Pack_Picture1.obj"
+".\Release\ready.obj"
+".\Release\StdAfx.obj"
+".\Release\ZBase64.obj"
+".\Release\ZSmtp.obj"
+]
+Creating command line "link.exe @C:\Users\SZF\AppData\Local\Temp\RSPDC37.tmp"
+<h3>Output Window</h3>
+Compiling...
+Key_Memory.cpp
+MmjbpApp.cpp
+MyCompress.cpp
+Pack_Picture1.cpp
+ready.cpp
+StdAfx.cpp
+ZBase64.cpp
+ZSmtp.cpp
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+LINK : warning LNK4098: defaultlib "MSVCRTD" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+taskmap.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
